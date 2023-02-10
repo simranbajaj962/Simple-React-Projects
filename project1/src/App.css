@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+#root {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#start-btn {
+  background-color: #cd5888;
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.modal {
+  padding-block: 2em;
+  padding-inline: 2em;
+  background-color: #cd5888;
+  border-radius: 8px;
+  width: 150px;
+  height: 130px;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+
+.modal form input {
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding-block: 0.5em;
+  background-color: #e9e8e8;
+}
+
+.btn {
+  width: 70px;
+  padding-block: 0.4em;
+  border-radius: 6px;
+  background-color: #913175;
+  cursor: pointer;
+  color: #e9e8e8;
+}
+
+.msg-box {
+  text-align: center;
+}
+
+.msg-box p {
+  font-style: italic;
+}
